@@ -12,8 +12,8 @@ body{
     background: blue;
 }
 .main-container{
-    height: 80vh;
-    width: 70vw;
+    height: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
