@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+
+    <title>Shopping List</title>
+</head>
+<body>
+    <h1>Grocery List</h1>
+    <main class="main-container">
+<input id="item-name-input" type="text" placeholder="add item here" required/>
+<input id="item-price-input" type="number" placeholder="add price here" required/>
+<button id="add">Add</button>
+
+
+<table id="table">
+        <tr>
+             <th>Sr. No.</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+</table>
+<p id="grand-total" data-ns-test="grandTotal">Total = 0</p>
+</main>
+    <script src="/index.js"></script>
+</body>
+</html>
